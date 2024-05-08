@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com DOM</title>
+    <style>
+body{
+
+    background-color: rgb(204, 198, 198);
+    color: rgb(11, 32, 90);
+    font: normal 14pt Arial
+}
+    </style>
+</head>
+    <body>
+
+        <h1>Exercicio cores teste</h1>
+        <p>COR 1</p>
+        <p>COR 2</p>
+        <div id = "cor3">COR 3</div>   
+        <p>color alterado via javascript, identificados com (getElementByTagName) e (getElementById)</p>
+    <script>
+        var cor1 = window.document.getElementsByTagName ("p") [0]
+        var cor2 = document.getElementsByTagName("p") [1]
+        var cor3 = document.getElementById ("cor3")
+        cor1.style.color = "red"
+        cor2.style.color = "yellow"
+        cor3.style.color = "purple"
+    </script>
+    </body>
+</html>

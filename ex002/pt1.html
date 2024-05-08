@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Teste Formatação</h1>
+    <p>Apos inserir um valor em um (window.prompt), exibe em um (window.alert) o valor formatado para reais</p>
+    <script>
+        var salario = Number(window.prompt("qual o seu salario"))
+        window.alert(`seu salario é ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+    </script>
+</body>
+</html>

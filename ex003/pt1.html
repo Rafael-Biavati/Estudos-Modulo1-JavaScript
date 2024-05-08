@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com DOM</title>
+    <style>
+    body{
+        background-color: rgb(106, 135, 160);
+        color: blanchedalmond;
+        font: normal 12pt Arial
+    }
+    </style>
+
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript!!!!</p>
+    <div id = "msg">color, background e padding inseridos via JavaScript</div>
+
+
+
+    <script>
+        var d = window.document.querySelector("div#msg")
+        d.style.color = "white"
+        d.style.backgroundColor = "black"
+        d.style.padding = "10px"
+    </script>
+</body>
+</html>
