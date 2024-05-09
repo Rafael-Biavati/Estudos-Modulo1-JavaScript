@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+body{background-color: #cfe9e5;}
+.container{height: 98vh;display: flex;align-items: center;justify-content: center;}
+#txtorigem{ height: 30px;}
+#btnanalise{height: 35px; width: 90px;}
+h1{text-align: center;}
+p{font-size: 1.5em;}
