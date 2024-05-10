@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e7f85;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7dc6e7;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 30px;
+}
+.dados div#consultaidade{
+  padding: 10px;
+  font-size: 1.1em;
+}
+.dados div#sexo{
+    padding: 0px 10px 10px 10px;
+    font-size: 1.1em;
+}
+div#btn{text-align: center;}
+#btnverificar{width: 100px; height: 30px; font-size: 1.1em; margin-bottom: 5px;}
+
+img#imagem{
+    margin-top: 10px;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50%;
+}

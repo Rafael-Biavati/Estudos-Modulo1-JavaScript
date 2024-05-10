@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="dados">
+            <div id="consultaidade">
+                <label for="idade">Nascimento</label>
+                <input type="number" name="idade" id="idade">
+            </div>
+            <div id="sexo">
+                Sexo
+                <input type="radio" name="radsex" id="masculino" checked> 
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div id="btn"><input type="button" id="btnverificar" value="verificar" onclick="verificar()">
+            </div>
+
+
+            <p id="resultado">. . .</p>
+            <img id="imagem" src="" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
