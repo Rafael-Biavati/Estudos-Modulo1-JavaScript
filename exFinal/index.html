@@ -13,21 +13,23 @@
             <div>
                 <label for="num">Numero (1-100)</label>
                 <input type="number" name="num" id="num">
-                <input type="button" class="btn" value="Adicionar">
+                <input type="button" class="btn" value="Adicionar" onclick="adicionar()">
             </div>
 
-            <select name="" size="15" id=""></select>
-            <input type="button" class="btn" value="Finalizar">
-            
+            <select name="boxnum" id="boxnum" size="10"></select>
+            <input type="button" class="btn" value="Finalizar" onclick="finalizar()">
+
             <div class="resultados">
-                <p id="txttotal">teste</p>
-                <p id="txtmaior">teste</p>
-                <p id="txtmenor">teste</p>
-                <p id="txtsoma">teste</p>
-                <p id="txtmedia">teste</p>
+                <p id="txttotal"></p>
+                <p id="txtmaior"></p>
+                <p id="txtmenor"></p>
+                <p id="txtsoma"></p>
+                <p id="txtmedia"></p>
             </div>
 
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
